@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>add_remove</title>
+</head>
+<body>
+    <h1>Javascript</h1>
+    <p>JavaScript is used in millions of Web pages to improve the design, validate forms, detect browsers, create
+cookies, and much more.</p>
+<p>JavaScript is the most popular scripting language on the Internet, and works in all major browsers, such as
+Internet Explorer, Mozilla Firefox, and Opera</p>
+
+<h3>Python is a high-level, general-purpose programming language widely recognized for its readability and simplicity.</h3>
+
+
+
+<script>
+    let newElement=document.createElement("p");
+    newElement.textContent="JavaScript can read and write HTML elements";
+    document.body.appendChild(newElement);
+
+    let removeElement=document.querySelector("h3");
+    document.body.removeChild(removeElement);
+</script>
+</body>
+</html>
