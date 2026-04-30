@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Learn JS</title>
+</head>
+<body>
+    <h1 class="head1">Learn JavaScript</h1>
+    <h2 class="head1">Learn JavaScript</h2>
+    <h3 class="head1">Learn JavaScript</h3>
+
+    <script>
+        var a = document.getElementsByClassName("head1")
+
+        var color1 = prompt("Enter color for H1:");
+        var color2 = prompt("Enter color for H2:");
+        var color3 = prompt("Enter color for H3:");
+        var style = prompt("Enter font style (italic/normal):");
+
+        
+        a[0].style.color = color1;
+        a[1].style.color = color2;
+        a[2].style.color = color3;
+        a[0].style.fontStyle = style;
+    </script>
+</body>
+</html>
